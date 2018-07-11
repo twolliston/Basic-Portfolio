@@ -14,20 +14,24 @@ body{
 
 
 .header-left {
-    width: 30%;
+    margin-left: 330px;
     float: left;
     background: #4aaaa5;
 }
 
  .header-right {
-     width: 70%;
      float: right;
+     margin-right: 335px;
 }
-
+span{
+    margin-top: 10px;
+    float: right;
+    padding: 10px 0 0 5px;
+}
  
 ul {margin:0; padding:0; list-style-type: none;}
-ul li {float:right; padding:10px; margin-left: 100px; }
-ul li a {float:right; font-size:12px; padding: 0 0 0 5px; text-decoration: none; }
+ul li {float:right; padding:10px; margin-left: 10px; }
+ul li a {float:right; font-size:16px; padding: 10px 0 0 5px; text-decoration: none; }
 
 
  hr {

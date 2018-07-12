@@ -8,23 +8,16 @@ html body {
     color: #333;
 }
 
-body{
-    background-image: url("../image/concrete-texture.png");
-}
-
 
 .header-left {
-    color: #ffffff;
-    margin-left: 340px;
+    margin-left: 360px;
     float: left;
     background: #4aaaa5;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
  .header-right {
      float: right;
-     margin-right: 335px;
+     margin-right: 355px;
 }
 span{
     margin-top: 10px;
@@ -34,7 +27,7 @@ span{
  
 ul {margin:0; padding:0; list-style-type: none;}
 ul li {float:right; padding:10px; margin-left: 10px; }
-ul li a {float:right; font-size:16px; padding: 10px 0 0 5px; text-decoration: none; color: #666666;}
+ul li a {float:right; font-size:16px; padding: 10px 0 0 5px; text-decoration: none; }
 
 
  hr {
@@ -45,22 +38,19 @@ ul li a {float:right; font-size:16px; padding: 10px 0 0 5px; text-decoration: no
 header {
     font-family: Georgia, "Times New Roman", Times, serif; 
     background-color: #ffffff;
-    /* border: solid 1px red; */
-    height: 72px;
-    border-bottom: solid 1px #cccccc;    
+    border: solid 1px #cccccc;
 }
 
 .container {
-   clear: both;
-   margin-top: 60px;
+    height: 850px;
+    clear: both;
+    background-image: url("../image/concrete-texture.png");
 }
-
 .bio-heading {
     color: #4aaaa5;
 }
 
 #bio {
-  padding: 20px;  
   margin:auto;
   width: 960px;
   background-color: #ffffff;
@@ -70,7 +60,6 @@ header {
     width: 200px;
     height: 200px;
     margin-right: 21px;
-    float: left;
   }
 
 

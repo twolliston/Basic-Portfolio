@@ -56,24 +56,9 @@ header {
 }
 
 .container {
-   overflow: hidden;
-   margin: 0 auto;
-   min-width: 960px;
-   height: 60%;
-   width: 70%;
-   border: 1px solid red;
-   margin-top: 60px;
-
+   clear: both;
+   margin-top: 40px;
 }
-
-.box {
-    float: left;
-    margin: 10px;
-    height: 200px;
-    width: 33.3%;
-    border: 1px solid red;
-}
-
 
 .bio-heading {
     color: #4aaaa5;
@@ -87,6 +72,11 @@ header {
   background-color: #ffffff;
 }
 
+#bio-box {
+    width: 500px;
+    float: left;
+      
+}
 
 
 .bio-image {
@@ -97,12 +87,16 @@ header {
     margin-right: 21px;
     float: left;
 }
-.bio-name {
+.bio-text {
     position: absolute;
     border: 1px solid teal;
-    top: 70px
-    right: 15px; 
-    float: left;
+    /* top: 10px; */
+    /* right: 15px;  */
+    /* float: left; */
+    /* margin-top: 5px; */
+    background: #666666;
+    width: 190px;
+    padding: 5px;
 }
 
 .footer {

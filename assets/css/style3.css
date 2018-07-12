@@ -76,6 +76,7 @@ header {
     height: 50px;
     background-color: #666666;
     border-top: solid 6px #4aaaa5;
+    padding-top: 1em;
 }
   
 li :hover {
